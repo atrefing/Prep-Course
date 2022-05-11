@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1200px;
+    min-height: 100%;
+    height: 200vh;
+    background-image: url("../homework/frozen-bubble-1943224_1280.jpeg");
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.demo_wrap {
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    border: 1px dashed green;
+}
+
+.demo_wrap h1 {
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.demo_wrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box>*:first-child {
+    align-self: stretch;
+}
+
+.box .selected {
+    align-self: center;
+}
+
+.showcase {
+    position: relative;
+    opacity: .3;
+}
+
+#List-unorder {
+    list-style-image: url('../homework/c_h_little_tiny.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+}
+
+#FirtsDiv {
+    width: 800px;
+    height: 200px;
+    background-color: burlywood;
+}
+
+#SecondDiv {
+    width: 600px;
+    height: 300px;
+    background-color: cadetblue;
+    margin: auto;
+    padding: 20px;
+    border: 2mm ridge rgba(211, 210, 75, .5);
+}
+
+#thirdDiv {
+    width: 500px;
+    height: 500px;
+    background-color: cadetblue;
+    margin: auto;
+    padding: 20px;
+    border: 2mm ridge rgba(211, 210, 75, .5);
+}
+
+#fourthDiv {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(89, 142, 116);
+    margin: auto;
+    padding: 10px;
+    border: 2mm groove rgba(97, 3, 42, 0.883);
+}
+
+#h1 {
+    color: red;
+    background-color: black;
+}
+
+.bg-image {
+    opacity: 0.4;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.img1 {
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    display: flex;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#spanId {
+    justify-content: center;
+    background-color: aqua;
+}
