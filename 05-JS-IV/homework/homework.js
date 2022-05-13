@@ -1,12 +1,6 @@
 // No cambies los nombres de las funciones.
 
-function cat(nombre, edad) {
-    this.nombre = nombre;
-    this.edad = edad;
-    this.meow = function() {
-        return "Meow!";
-    }
-}
+
 
 function crearGato(nombre, edad) {
     // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
@@ -14,7 +8,13 @@ function crearGato(nombre, edad) {
     // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
     // Devuelve el objeto
     // Tu código:
-
+    function cat(nombre, edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.meow = function() {
+            return "Meow!";
+        }
+    }
     var gato1 = new cat(nombre, edad);
     return gato1;
 }
