@@ -52,7 +52,7 @@ function filter(array) {
     //Filtrar todos los elementos del array que comiencen con la letra "a".
     //Devolver un nuevo array con los elementos que cumplen la condición
     //Tu código:
-    var resoult = array.filter(w => w.charAt(0) === 'a')
+    var resoult = array.filter(w => { return w.charAt(0) === 'a' })
     return resoult;
 }
 
